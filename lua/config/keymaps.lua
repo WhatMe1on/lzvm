@@ -10,4 +10,4 @@ vim.keymap.set('n', '<leader>3', builtin.buffers, { desc = 'Telescope buffers' }
 vim.keymap.set('n', '<leader>4', builtin.help_tags, { desc = 'Telescope help tags' })
 
 -- exit
-vim.keymap.set("n", "<leader><ESC>", ":qa<CR>", { desc = "exit all file" })
+vim.keymap.set("n", "<leader>zz", ":qa<CR>", { desc = "exit all file" })
