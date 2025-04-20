@@ -3,3 +3,5 @@
 -- Add any additional options here
 local vopt = vim.opt
 vopt.wrap = true
+
+vim.g.autoformat = true
