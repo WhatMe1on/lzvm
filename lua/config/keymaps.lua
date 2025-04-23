@@ -3,12 +3,7 @@
 -- Add any additional keymaps here
 
 -- telescope
-local builtin = require('telescope.builtin')
 local kmap = vim.keymap.set
-kmap('n', '<leader>1', builtin.find_files, { desc = 'Telescope find files' })
-kmap('n', '<leader>2', builtin.live_grep, { desc = 'Telescope live grep' })
-kmap('n', '<leader>3', builtin.buffers, { desc = 'Telescope buffers' })
-kmap('n', '<leader>4', builtin.help_tags, { desc = 'Telescope help tags' })
 
 -- exit
 kmap("n", "<leader>qq", ":q<CR>", { desc = "Exit single file" })
