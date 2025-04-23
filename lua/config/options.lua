@@ -5,4 +5,3 @@ local vopt = vim.opt
 vopt.wrap = true
 
 vim.g.autoformat = false
-
